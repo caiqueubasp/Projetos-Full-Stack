@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: url(images/bg-body.png);
+}
+
+header{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.logo-content img{
+    border: 1px solid gray;
+    border-radius: 70px;
+}
+
+.logo-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.menu-content button{
+    width: 15%;
+    height: 5vh;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+section.prato-principal{
+    
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.imagem-banner{
+    background-image: url(images/img-banner.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+
+section.opcoes{
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 2%;
+    width: 85%;
+    height: 160vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.menu-itens{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 40vh;
+    padding: 1%;
+    
+
+}
+
+.menu-itens img{
+    width: 100%;
+    position: relative;
+
+}
+
+.botao-itens{
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    border: none;
+}
+
+img.selos{
+    position: relative;
+    width: 15%;
+    height: 5vh;
+    top: -185px;
+    left: 290px;
+
+}
+
+.ampliar-fotos{
+    width: 100%;
+    height: 5vh;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    position: relative;
+    top: -150px;
+    border: none;
+
+
+}
+
+footer{
+    width: 80%;
+    height: 20vh;
+    background-color: rgb(141, 42, 42);
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: none;
+    padding-bottom: 1%;
+
+}
+
+.rodape .menu-rodape ul li{
+    background-color: rgb(141, 42, 42);
+    color: white;
+    border: none;
+    /* border-right: 1px solid white; */
+    /* text-transform: ; */
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    float: left;
+
+}
+
+ul,li{
+    float: left;
+    padding: 3%;
+    list-style-type: none;
+}
