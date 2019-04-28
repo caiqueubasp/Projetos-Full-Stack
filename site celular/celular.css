@@ -1,0 +1,104 @@
+
+
+header{
+    background-color: rgb(201, 104, 14);
+    width: 960px;
+    height: 2px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    /* justify-items: flex-end; */
+    justify-content: flex-start;
+    /* justify-items: center; */
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    /* position: fixed; */
+
+}
+
+img#logo{
+    width: 120px;
+    height: 100px;
+    position: relative;
+    top: -45px;
+    left: -56px;
+
+
+}
+
+
+body{
+    background-image: url(imagens/bg.jpg);
+
+}
+
+section.container{
+    margin: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding-top: 20px;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+div.caixa{
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+img.amostras{
+    width: 300px;
+    height: 200px;
+    
+
+}
+
+img.valor{
+    position: relative;
+    width: 80px;
+    height: 70px;
+    top: -206px;
+    left: 150px;
+}
+
+/* div.lista{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+} */
+
+div.lista ul li { 
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    top: -30px;
+    left: 50px;;
+    
+ }
+
+ div.cabeca {
+     margin: 40px 10px 10px 80px;
+ }
+
+button{
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -100px;
+    right: 40px;
+    left: auto;
+
+}
+
+
