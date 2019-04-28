@@ -1,0 +1,12 @@
+*{
+    
+}
+
+section.container-fluid{
+    size: 80%;
+}
+
+img#carrosel{
+    width: 800px;
+    height: 500px;
+}
